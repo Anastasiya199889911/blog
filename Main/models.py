@@ -27,7 +27,7 @@ from django.db import models
 class News(models.Model):
     name = models.CharField(max_length=100, blank=True, null=True, verbose_name='Заголовок')
     text = models.CharField(max_length=500, blank=True, null=True, verbose_name='Текст')
-    img_path = models.TextField(blank=True, null=True, verbose_name='Изображение')
+    img_path = models.ImageField(upload_to="uploads/", verbose_name='Изображение')
 
     class Meta:
         managed = False
