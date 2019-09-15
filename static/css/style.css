@@ -1,0 +1,282 @@
+@font-face{
+font-family: 'Blogger Sans';
+src: url('/static/fonts/Blogger Sans.otf');
+url('/static/fonts/Blogger Sans.otf') format('otf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+font-family: 'Blogger Sans';
+src: url('/static/fonts/Blogger Sans-Bold.otf');
+url('/static/fonts/Blogger Sans-Bold.otf') format('otf');
+font-weight: bold;
+font-style: normal;
+}
+@font-face{
+font-family: 'Blogger Sans';
+src: url('/static/fonts/Blogger Sans-Light.otf');
+url('/static/fonts/Blogger Sans-Light.otf') format('otf');
+font-weight: 200;
+font-style: normal;
+}
+@font-face{
+font-family: 'Houschka Rounded Bold';
+src: url('/static/fonts/houchka.otf');
+url('/static/fonts/houchka.otf') format('otf');
+font-weight: bold;
+font-style: normal;
+}
+.header_bg{
+	background-color: #00010b;
+	margin: 0px;
+	padding: 0px;
+}
+.name{
+	color: #be222f;
+	margin: 0px;
+	font-weight: bold;
+	font-family: "Houschka Rounded Bold";
+
+}
+.lb_events{
+	color: black;
+	text-align: center;
+	font-family: "Houschka Rounded Bold";
+}
+.ev_name{
+	color: black;
+	font-size: 30px;
+	font-family: "Houschka Rounded Bold";
+	margin: 0px;
+}
+.ev_name_date{
+	background-color: #c6c6c6;
+}
+.ev_date{
+	color: #8b0017;
+	font-size: 25px;
+	font-family: "Houschka Rounded Bold";
+	margin: 0px;
+	width: 100%;
+	text-align: center;
+}
+.ev_text{
+	font-family: "Blogger Sans";
+	font-weight: normal;
+	font-size: 20px;
+}
+.ev_place{
+	color: #0a6b7c;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: "Blogger Sans";
+	margin: 0px;
+	margin-left: 10px;
+}
+.fa-flag{
+	font-size: 50px;
+}
+.event{
+	box-shadow: 0px 2px 5px 3px rgba(0,0,0,0.2);
+}
+@media (min-width: 320px) {
+  .it1 { font-size: 35px; }
+  .it2 { font-size: 20px; }
+  .event{width: 90%;}
+  .article{width: 90%;}
+  .name{font-size: 25px;}
+  #carouselreviews{width: 90%;padding: 20px 50px 20px 50px}
+  .lb_events{font-size: 50px;}
+  .footer_name{font-size: 25px;}
+  .footer_phone{font-size: 25px;}
+}
+@media (min-width: 576px) {
+  .it1 { font-size: 35px; }
+  .it2 { font-size: 20px; }
+  .event{width: 90%;}
+  .article{width: 90%;}
+  .name{font-size: 35px;}
+  #carouselreviews{width: 90%;padding: 30px 70px 30px 70px}
+  .lb_events{font-size: 60px;}
+  .footer_name{font-size: 30px;}
+  .footer_phone{font-size: 30px;}
+}
+
+@media (min-width: 768px) {
+  .it1 { font-size: 45px; }
+  .it2 { font-size: 25px; }
+  .event{width: 70%;}
+  .article{width: 70%;}
+  .name{font-size: 25px;}
+  #carouselreviews{width: 85%;padding: 30px 70px 30px 70px}
+  .lb_events{font-size: 60px;}
+  .footer_name{font-size: 30px;}
+  .footer_phone{font-size: 30px;}
+}
+
+@media (min-width: 992px) {
+  .it1 { font-size: 60px; }
+  .it2 { font-size: 30px; }
+  .event{width: 45%;}
+  .article{width: 45%;}
+  .name{font-size: 30px;}
+  #carouselreviews{width: 70%;padding: 30px 100px 30px 100px}
+  .lb_events{font-size: 60px;}
+  .footer_name{font-size: 30px;}
+  .footer_phone{font-size: 30px;}
+}
+
+@media (min-width: 1200px) {
+  .it1 { font-size: 70px; }
+  .it2 { font-size: 35px; }
+  .event{width: 30%;}
+  .article{width: 30%;}
+  .name{font-size: 30px;}
+  #carouselreviews{width: 60%; padding: 30px 100px 30px 100px}
+  .lb_events{font-size: 60px;}
+  .footer_name{font-size: 30px;}
+  .footer_phone{font-size: 30px;}
+}
+.banner{
+	position: relative;
+}
+.img_top{
+	width: 100%;
+}
+.img_text{
+	background-color: rgba(139,0,23,0.7);
+	width: 90%;
+	margin-left: 5%;
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+}
+.it1{
+	color: white;
+	width: 100%;
+	text-align: center;
+	margin: 0px;
+	font-family: "Houschka Rounded Bold";
+}
+.it2{
+	color: white;
+	width: 100%;
+	text-align: center;
+	margin: 0px;
+	font-family: "Houschka Rounded Bold";
+}
+.news_layer{
+	color: white;
+	width: 80%;
+	margin: auto;
+}
+.img_news{
+	width: 100%;
+}
+.news_name{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Blogger Sans";
+}
+.news_line{
+	width: 100%;
+	margin: 0px;
+	font-family: "Blogger Sans";
+	font-weight: 200;
+	border-top: 3px solid white;
+}
+.news_text{
+	font-size: 20px;
+	font-weight: 500;
+}
+.news1{
+	background-color: #119bb3;
+}
+.news2{
+	background-color: black;
+}
+.articles{
+	background-color: #f6f3f2;
+	width: 90%;
+	margin: auto;
+}
+.article_name{
+	color: black;
+	text-decoration: underline;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Blogger Sans";
+}
+.article_text{
+	font-size: 20px;
+	font-family: "Blogger Sans";
+	font-weight: 200;
+}
+.footer{
+	background-color: black;
+}
+
+.footer_name{
+	color: #be222f;
+	font-weight: 500;
+	width: 100%;
+	text-align: center;
+}
+.footer_phone{
+	color: #a6a6a6;
+	font-weight: 500;
+	width: 100%;
+	text-align: center;
+}
+.fa-vk,.fa-facebook-f,.fa-google-plus-g,.fa-twitter,.fa-instagram{
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	height: 30px;
+	width: 50px;
+}
+.fa-vk:hover,.fa-facebook-f:hover,.fa-google-plus-g:hover,.fa-twitter:hover,.fa-instagram:hover{
+	font-size: 30px;
+	color: rgb(0,191,255);
+	cursor: pointer;
+}
+.car_text{
+	background-color: rgba(17,155,179,0.8);
+	padding: 15px;
+}
+.news_carousel{
+	width: 90%;
+	margin: auto;
+}
+.rews1{
+	font-size: 30px;
+	width: 100%;
+	font-family: "Houschka Rounded Bold";
+	margin: 0px;
+}
+.rews2{
+	font-size: 25px;
+	width: 100%;
+	font-family: "Houschka Rounded Bold";
+	margin: 0px;
+}
+
+.rews3{
+	font-size: 20px;
+	width: 100%;
+	font-family: "Blogger Sans";
+	font-weight: bold;
+	margin: 0px;
+}
+.rews4{
+	font-size: 20px;
+	width: 100%;
+	font-family: "Blogger Sans";
+	font-weight: normal;
+	margin: 0px;
+}
+#carouselreviews{
+	margin: auto;
+	background-color: rgba(0,191,255,0.8);
+	color: #eee;
+}
