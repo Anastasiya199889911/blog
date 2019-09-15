@@ -1,0 +1,1 @@
+web: gunicorn igla.wsgi --log-file -
